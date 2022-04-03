@@ -1,121 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alex Rothmaier | Data Science</title>
 
-  <title>
-    Alex Rothmaier | Data Scientist
-  </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
 
-</head>
 
-<body>
 
-  <div id="particles-js">
+    <section class="landing">
+      <div id="particles-js">
+        <div class="header">
 
-    <div class="header">
+          <h1>
+            <span class="site-headline">Alex Rothmaier</span>
+            <span class="site-subline">Data Science | Data Analytics</span>
+          </h1>
 
-      <h1>
-        <span class="site-headline">Alex Rothmaier</span>
-        <span class="site-subline">Data Scientist</span>
-      </h1>
+          <div class="header-icons">
+            <a aria-label="Send email" href="mailto:alex-rothmaier@gmx.de"><i class="icon fa fa-envelope"></i></a>
+            <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/alex-rothmaier-678291224/"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+            <a aria-label="My Github" target="_blank" href="https://github.com/alex-1906"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+          </div>
 
-      <div class="header-icons">
-        <a aria-label="Send email" href="mailto:alex-rothmaier@gmx.de"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/alex-rothmaier-678291224/"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
-        <!-- <a aria-label="My Xing" target="_blank" href=""><i class="icon fa fa-xing" aria-hidden="true"></i></a> -->
-        <a aria-label="My Github" target="_blank" href="https://github.com/alex-1906"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        </div>
+
+
+
+      </div>
+      <a class="down1" href=".about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+
+    </section>
+
+    <section class="about">
+      <h1 class="section__header">About Me</h1>
+
+      <div class="about-text">
+        <p>
+          I have always been enthusiastic about the data-oriented subjects like maths and physics.
+          When I started my studies in economical physics, I discovered computer science and fell in love with coding.
+        </p>
+
+        <p>
+          Combining my passion of mathematics and programming I love the idea of data science.
+          For me data science means leveraging mathematics, statistics and business understanding to gain valuable insights from data.
+        </p>
+
+        <p>
+          Moreover I love teaching and explaining my work to others. Seeing the enlightment in the face of others when they finally figure out a complex problem is just invaluable.
+        </p>
+
+        <p class="cite">
+          “If you can’t explain it simply, you don’t understand it well enough.”
+          <br>
+          — Albert Einstein
+        </p>
       </div>
 
-    </div>
 
-    <a class="down" href="#about_section" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-    <a class="up" href="#particles-js" data-scroll><i class="icon fa fa-chevron-up" aria-hidden="true"></i></a>
-    <a class="down2" href="#project_section" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-  </div>
+      <a class="down2" href=".projects" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </section>
 
-  <div id="about_section" class="sec">
-    <h1 class=sec-header>About Me</h1>
-    <!-- <div class="portrait">
-      <img src="images/portrait2.png" alt="" >
-    </div> -->
-
-
-    <div class="para">
-      <br><br><br><br><br><br><br>
-
-      I have always been enthusiastic about the data-oriented subjects like maths and physics.
-
-      <br>
-      When I started my studies in economical physics, I discovered computer science and fell in love with coding.
-
-      <br><br>
-      Starting over again with economical engineering I leveraged my background knowledge in maths and dived into data science.
-      I became a member of the data science group at my university and enrolled myself in diverse courses and lectures about relevant topics.
-      With my prior projects I could gain expertise within different topics and fields of research.
-
-      <br><br>
-      Moreover I love teaching and explaining my work to others, therefore I am tutoring other students in maths and computer science and held several courses about university level mathematics.
-      Seeing the enlightment in the face of others when they finally figure out a complex problem is just invaluable.
-      <br><br><br>
-
-    </div>
-
-    <div id="cite" class="para">
-      “If you can’t explain it simply, you don’t understand it well enough.”
-      <br>
-      — Albert Einstein
-    </div>s
-
-  </div>
-
-  <div id="project_section" class="sec">
-    <h1 class="sec-header">Projects</h1>
-    <div class="project-wrapper">
-
-      <div class="gallery">
-        <a target="_blank" href="https://github.com/alex-1906/Practical-Seminar">
-          <img src="images/movies.jpg" alt="" width="600" height="400">
-        </a>
-        <div class="desc">Interpretable Movie Recommender System</div>
+    <section class="projects">
+      <h1 id="project-header" class="section__header">Projects</h1>
+      <div class="hero">
+        <div class="card-grid">
+          <a class="card" href="https://github.com/alex-1906">
+              <div class="card-background" style="background-image: url(images/finance.jpg);"> </div>
+              <div class="card-content">
+                <p class="card-category">Python</p>
+                <h2 class="card-heading">Measuring Financial Market Quality</h2>
+              </div>
+          </a>
+          <a class="card" href="https://github.com/alex-1906">
+            <div class="card-background" style="background-image: url(images/netflix.jpg);"> </div>
+            <div class="card-content">
+              <p class="card-category">Explainable AI</p>
+              <h2 class="card-heading">Interpretable Movie Recommender System</h2>
+            </div>
+          </a>
+          <a class="card" href="https://github.com/alex-1906">
+            <div class="card-background" style="background-image: url(images/newspapers.jpg);"> </div>
+            <div class="card-content">
+              <p class="card-category">Natural Language Processing</p>
+              <h2 class="card-heading">Analyzing News Articles with NLP</h2>
+            </div>
+          </a>
+        </div>
       </div>
 
-      <div class="gallery">
-        <a target="_blank" href="https://github.com/alex-1906/Practical-Seminar">
-          <img src="images/newspapers.jpg" alt="" width="600" height="400">
-        </a>
-        <div class="desc">Information Extraction from News Articles</div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="https://github.com/alex-1906/Practical-Seminar">
-          <img src="images/finance.jpg" alt="" width="600" height="400">
-        </a>
-        <div class="desc">Python for Finacial Market Quality Measures</div>
-      </div>
-
-    </div>
-
-  </div>
+      <a class="up" href="#particles-js" data-scroll><i class="icon fa fa-chevron-up" aria-hidden="true"></i></a>
+    </section>
 
 
-
-
-
-
-
-  <script src="./assets/js/jquery.min.js"></script>
-  <script src="./assets/js/validator.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="./assets/js/sweet-scroll.min.js"></script>
-  <script src="./assets/js/main.js"></script>
-
-
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/validator.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
+</html>
