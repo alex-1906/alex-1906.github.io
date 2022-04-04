@@ -1,2 +1,4 @@
 # Personal website
-This repository contains the code for my personal website. It is used to showcase some of my projects. It is currently under development.
+This repository contains the code for my personal website, used to show some of my recent projects.
+It is still under development.
+
